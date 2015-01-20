@@ -2,19 +2,21 @@
 GENERAL
 *****************************/
 
-html, body {
+html,
+body,
+a {
     padding: 0;
     margin: 0;
-    height: 100%; /* allows nested tags to fill height with 100% relative to parent */
+    height: 100%;
+    /* allows nested tags to fill height with 100% relative to parent */
     font-family: 'Ubuntu', sans-serif;
     color: #333333;
+    text-decoration: none;
 }
-
 .container {
     height: 100%;
     background-color: #ecf0f1;
 }
-
 /*****************************
 HEADER
 *****************************/
@@ -23,21 +25,17 @@ HEADER
     height: 100px;
     background-color: #95a5a6;
 }
-
 .header h1 {
     padding: 0;
     margin: 0;
     font-size: 40px;
     text-align: center;
-    
     /* The following three lines allow the H1 tag content to be aligned vertically with the parent element */
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    
     color: #EEEEEE;
 }
-
 /*****************************
 BODY
 *****************************/
@@ -46,4 +44,16 @@ BODY
     margin: 50px auto;
     text-align: center;
     font-size: 10em;
+}
+
+.btn_container {
+    text-align: center;
+}
+
+.btn_container a {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #95a5a6;
+    border-radius: 5px;
 }
