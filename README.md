@@ -1,0 +1,3 @@
+JavaScript Countdown Timer
+
+This project will track the creation of a simple, easy-to-use countdown timer that allows a user to set a custom countdown time.  The user can start the timer, and the time will countdown on a large countdown timer displayed on the screen.  The user will be able to create events that will display when the countdown timer reaches a certain time value.  The user will also be able to enable a full-screen setting to allow the timer to display across their entire monitor.  The timer will emit both visual and audio cues both when the timer expires as well as during custom events that the user may generate.
