@@ -1,0 +1,49 @@
+/*****************************
+GENERAL
+*****************************/
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%; /* allows nested tags to fill height with 100% relative to parent */
+    font-family: 'Ubuntu', sans-serif;
+    color: #333333;
+}
+
+.container {
+    height: 100%;
+    background-color: #ecf0f1;
+}
+
+/*****************************
+HEADER
+*****************************/
+
+.header {
+    height: 100px;
+    background-color: #95a5a6;
+}
+
+.header h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    
+    /* The following three lines allow the H1 tag content to be aligned vertically with the parent element */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    color: #EEEEEE;
+}
+
+/*****************************
+BODY
+*****************************/
+
+.timer {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 10em;
+}
